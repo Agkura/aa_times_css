@@ -1,0 +1,31 @@
+.section-nav {
+  display: flex;
+  position: relative;
+  top: 10px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid $light-gray;
+}
+
+.section-nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  padding: 10px;
+}
+
+.section-nav li {
+  cursor: pointer;
+}
+
+.section-nav li:hover {
+  background-color: $light-gray;
+}
+
+.section-nav a {
+  font-size: 10px;
+}
+
+.section-nav a:hover {
+  text-decoration: underline;
+}
